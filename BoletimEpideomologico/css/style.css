@@ -1,0 +1,49 @@
+
+.pai {
+    width: 20%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+.CONFIRMADOS, .SUSPEITOS, .RECUPERADOS, .DESCARTADOS, .ALDEIAINDÍGENA, .INTERNADOS, .INTERNADOSREDEPARTICULAR, .ÓBITOSCONFIRMADOS {
+    width: 400px;
+    height: 100px;
+    
+    margin: 8px;
+    border-radius: 10px;
+}
+body{
+    background-image: url("../images/virus\ covid.jpg");
+}
+.DESCARTADOS {
+    background-color:rgb(49, 49, 216)
+}
+.CONFIRMADOS{
+    background-color:red ;
+}
+.SUSPEITOS{
+    background-color: aquamarine;
+}
+.RECUPERADOS{
+    background-color: green;
+}
+.ALDEIAINDÍGENA{
+    background-color: rgb(158, 28, 28);
+
+}
+.INTERNADOS{
+    background-color: orange;
+}
+.INTERNADOSREDEPARTICULAR{
+    background-color: rgb(209, 141, 15);
+}
+.ÓBITOSCONFIRMADOS{
+    background-color: rgb(61, 6, 6);
+}
+p{
+    font-size: 30px;
+}
